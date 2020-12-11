@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		  <!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		
+			<!--=========company-name===========-->
+		<title>sanowar-sami</title>
+		<!--=========company icon===========-->
+		<link rel="icon" href="images/logo.JPG"><!--=========Fontawesome===========-->
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<!--=========Fontawesome===========-->
+		<link rel="stylesheet" href="css/all.css">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<style>
+			section{
+				padding-top:100px;
+				padding-bottom:75px;
+			}
+			/*---global*/
+			.bg-transparent-white{
+				background-color:#ffffff52;
+			}
+			
+			.bg-transparent-dark{
+				background-color:#0dee9b52;
+			}
+			.top-auto{
+				top:auto;
+			}
+			.card-hover-visible{
+				visibility:hidden;
+			}
+			.card:hover .card-hover-visible{
+				visibility:visible;
+			}
+			[id*="-error"]{
+				color:yellow;
+				float:left;
+				margin-top:-10px;
+			}
+			#main-nav ul>li>a.active{
+				background-color:black;
+			}
+			#home{
+				background-image:url('images/banner.jpg');
+				background-size:cover;
+				background-position:center;
+			}
+			#service{
+				background-image:url('images/serve.jpg');
+				background-size:cover;
+				background-position:center;
+				background-attachment:fixed;
+			}
+			#review{
+				background-image:url('images/stats.png');
+				background-size:cover;
+				background-position:center;
+			}
+			#contact{
+				background-image:url('images/contact.png');
+				background-size:cover;
+				background-position:center;
+				background-attachment:fixed;
+			}
+			#social-link ul>li{
+				margin-right:12px;
+			}
+			#social-link ul>li>a{
+				height:2.45rem;
+				width:2.5rem;
+			}
+			.left-auto{
+				left:auto;
+			}
+			
+			@media (max-width:576px){
+				.h5-sm{
+					font-size:1.25rem;
+				}
+				.h6-sm{
+					font-size:1rem;
+				}
+			}
+		</style>
+	</head>
+	<body data-spy="scroll" data-target="#main-nav" data-offset="100">
+		<header>
+			<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-transparent-dark" id="main-nav">
+				<a class="navbar-brand d-flex" href="#">
+					<img class="rounded-circle"src="images/logo.jpg" alt="company logo">
+					<h2 class="ml-2 my-auto text-uppercase">Sanowar</h2>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsExample05">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link px-4 mr-2 text-white active" href="#home">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4 mr-2 text-white" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4 mr-2 text-white" href="#service">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4 mr-2 text-white" href="#project">Project</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-4 mr-2 text-white" href="#contact">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="btn btn-warning btn-block" href="#">Login</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<!--=============slider part=============-->
+			<section id="home" class="bg-dark pb-0">
+				<div class="container">
+					<div class="row no-gutters ">
+						<div class="col-6 align-self-end pb-sm-5 pb-3=4 mb-md-5">
+						<!--=========content part=========-->
+							<p class="text-warning mb-1 text-uppercase">Introduction</p>
+							<h5 class="text-white mb-1 text-uppercase h6-sm">Hello, My name is Md. Sanowar Hosen</h5>
+							<h2 class="text-warning h5-sm text-uppercase">I'm a programmer</h2>
+							<button class="btn btn-light rounded-pill px-sm-4 py-sm-2 py-1" style="background:white; color:#4ff367;">My Work</button>
+							<button class="btn btn-danger rounded-pill px-sm-4 py-sm-2 py-1">Hire Me</button>
+						</div>
+						<div class="col-6 text-right">
+						<!--==========person part==========-->
+							<img class="img-fluid" src="images/sanowar.png" alt="photo of sanowar">
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--=============About me part=============-->
+			<section id="about">
+				<div class="container">
+				<!--=============About me content============-->
+					<div class="text-center">
+						<h6 class="text-primary mb-0 font-weight-normal">About Me</h6>
+						<h1 class="text-uppercase pb-3 mb-5">Welcome to My Website</h1>
+						<p class="text-secondary mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic type setting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					</div>
+					<!--=============About me progress part=============-->
+					<div class="row justify-content-center mb-5" id="progress">
+						<!--=============progress content=============-->
+						<div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+							<h6 class="mb-1">WEB DESIGN</h6>
+							<div class="progress">
+								 <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 90%">
+								 </div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+							<h6 class="mb-1">PHP DEVELOPMENT</h6>
+							<div class="progress">
+								 <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 80%">
+								 </div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+							<h6 class="mb-1">PHOTOGRAPHY</h6>
+							<div class="progress">
+								 <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 70%">
+								 </div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+							<h6 class="mb-1">BRANDING</h6>
+							<div class="progress">
+								 <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 50%">
+								 </div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+							<h6 class="mb-1">MARKETING</h6>
+							<div class="progress">
+								 <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 90%">
+								 </div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+							<h6 class="mb-1">SEO</h6>
+							<div class="progress">
+								 <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 75%">
+								 </div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+							<h6 class="mb-1">CONSULTENCY</h6>
+							<div class="progress">
+								 <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 40%">
+								 </div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!--=============Services part=============-->
+			<section id="service" class="bg-secondary">
+				<div class="container">
+					<div class="text-center">
+						<h6 class="text-primary mb-0 font-weight-normal">My Services</h6>
+						<h1 class="text-uppercase text-white mb-4">What I Do</h1>
+					</div>
+					
+					<!--=============Services content=============-->
+					<div class="form-row justify-content-center">
+					<!--=============Services-001=============-->
+						<div class="col-lg-4 col-sm-6 mb-2">
+							<div class="card p-5 bg-transparent-white text-white btn-outline-primary text-center h-100">
+								<h2 class="text-warning mb-4"><i class="fas fa-list"></i></h2>
+								<h3 class="mb-4">Professional Code</h3>
+								<p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+						</div>
+					<!--=============Services-002=============-->
+						<div class="col-lg-4 col-sm-6 mb-2">
+							<div class="card p-5 bg-transparent-white text-white btn-outline-primary text-center h-100">
+								<h2 class="text-warning mb-4"><i class="far fa-lightbulb"></i></h2>
+								<h3 class="mb-4">Creative Ideas</h3>
+								<p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+						</div>
+					<!--=============Services-003=============-->
+						<div class="col-lg-4 col-sm-6 mb-2">
+							<div class="card p-5 bg-transparent-white text-white btn-outline-primary text-center h-100">
+								<h2 class="text-warning mb-4"><i class="far fa-clone"></i></h2>
+								<h3 class="mb-4">SEO & Marketing</h3>
+								<p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+						</div>
+					<!--=============Services-004=============-->
+						<div class="col-lg-4 col-sm-6 mb-2">
+							<div class="card p-5 bg-transparent-white text-white btn-outline-primary text-center h-100">
+								<h2 class="text-warning mb-4"><i class="far fa-heart"></i></h2>
+								<h3 class="mb-4">User Friendly</h3>
+								<p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+						</div>
+					<!--=============Services-005=============-->
+						<div class="col-lg-4 col-sm-6 mb-2">
+							<div class="card p-5 bg-transparent-white text-white btn-outline-primary text-center h-100">
+								<h2 class="text-warning mb-4"><i class="fas fa-magic"></i></h2>
+								<h3 class="mb-4">Web Development</h3>
+								<p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+						</div>
+					<!--=============Services-006=============-->
+						<div class="col-lg-4 col-sm-6 mb-2">
+							<div class="card p-5 bg-transparent-white text-white btn-outline-primary text-center h-100">
+								<h2 class="text-warning mb-4"><i class="fas fa-sliders-h"></i></h2>
+								<h3 class="mb-4">Portfolio Options</h3>
+								<p class="px-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!--=============Portfolio part=============-->
+			<section id="project">
+				<div class="container">
+					<div class="text-center">
+						<h6 class="text-primary mb-0 font-weight-normal">View All</h6>
+						<h1 class="text-uppercase mb-4">My Projects</h1>
+					</div>
+					
+					<!--=============Portfolio content=============-->
+					<div class="form-row justify-content-center">
+						<div class="col-lg-4 col-sm-6 mb-2">
+							<!--=============Portfolio 001=============-->
+							<div class="card">
+								<img class="card-img d-block" src="images/g1.jpg" alt="photo of project 1">
+								<div class="card-img-overlay p-2 top-auto card-hover-visible">
+									<a href="" class="btn btn-dark btn-block">View</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 mb-2">
+							<!--=============Portfolio 002=============-->
+							<div class="card">
+								<img class="card-img d-block" src="images/g2.jpg" alt="photo of project 1">
+								<div class="card-img-overlay p-2 top-auto card-hover-visible">
+									<a href="" class="btn btn-dark btn-block">View</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 mb-2">
+							<!--=============Portfolio 003=============-->
+							<div class="card">
+								<img class="card-img d-block" src="images/g3.png" alt="photo of project 1">
+								<div class="card-img-overlay p-2 top-auto card-hover-visible">
+									<a href="" class="btn btn-dark btn-block">View</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 mb-2">
+							<!--=============Portfolio 004=============-->
+							<div class="card">
+								<img class="card-img d-block" src="images/g4.jpg" alt="photo of project 1">
+								<div class="card-img-overlay p-2 top-auto card-hover-visible">
+									<a href="" class="btn btn-dark btn-block">View</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 mb-2">
+							<!--=============Portfolio 005=============-->
+							<div class="card">
+								<img class="card-img d-block" src="images/g5.gif" alt="photo of project 1">
+								<div class="card-img-overlay p-2 top-auto card-hover-visible">
+									<a href="" class="btn btn-dark btn-block">View</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 mb-2">
+							<!--=============Portfolio 006=============-->
+							<div class="card">
+								<img class="card-img d-block" src="images/g6.jpg" alt="photo of project 1">
+								<div class="card-img-overlay p-2 top-auto card-hover-visible">
+									<a href="" class="btn btn-dark btn-block">View</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 mb-2">
+							<!--=============Portfolio 007=============-->
+							<div class="card">
+								<img class="card-img d-block" src="images/g7.png" alt="photo of project 1">
+								<div class="card-img-overlay p-2 top-auto card-hover-visible">
+									<a href="" class="btn btn-dark btn-block">View</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 mb-2">
+							<!--=============Portfolio 008=============-->
+							<div class="card">
+								<img class="card-img d-block" src="images/g8.jpg" alt="photo of project 1">
+								<div class="card-img-overlay p-2 top-auto card-hover-visible">
+									<a href="" class="btn btn-dark btn-block">View</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 mb-2">
+							<!--=============Portfolio 009=============-->
+							<div class="card">
+								<img class="card-img d-block" src="images/g9.jpg" alt="photo of project 1">
+								<div class="card-img-overlay p-2 top-auto card-hover-visible">
+									<a href="" class="btn btn-dark btn-block">View</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!--=============Review part=============-->
+			<section id="review">
+				<div class="container">
+				<!--=============Review content=============-->
+					<div class="row">
+						<div class="col-md-3 col-6 mb-4 text-center"><!--=============Review part-1=============-->
+							<h2 class="text-warning mb-4"><i class="far fa-lightbulb"></i></h2>
+							<h3 class="font-weight-bold text-white mb-4">48</h3>
+							<h6 class="text-white">Projects Done</h6>
+						</div>
+						<div class="col-md-3 col-6 mb-4 text-center"><!--=============Review part-2=============-->
+							<h2 class="text-warning mb-4"><i class="far fa-heart"></i></h2>
+							<h3 class="font-weight-bold text-white mb-4">42</h3>
+							<h6 class="text-white">Satisfied Clients</h6>
+						</div>
+						<div class="col-md-3 col-6 mb-4 text-center"><!--=============Review part-3=============-->
+							<h2 class="text-warning mb-4"><i class="fas fa-magic"></i></h2>
+							<h3 class="font-weight-bold text-white mb-4">86</h3>
+							<h6 class="text-white">Awards</h6>
+						</div>
+						<div class="col-md-3 col-6 mb-4 text-center"><!--=============Review part-4=============-->
+							<h2 class="text-warning mb-4"><i class="far fa-smile-beam"></i></h2>
+							<h3 class="font-weight-bold text-white mb-4">78</h3>
+							<h6 class="text-white">Happy Clients</h6>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!--=============Contact us part=============-->
+			<section id="contact" class="bg-dark">
+				<div class="container">
+					<div class="text-center">
+						<h6 class="text-primary mb-0 font-weight-normal">Find Me</h6>
+						<h1 class="text-uppercase text-white mb-5">Contact Me Now</h1>
+					</div>
+					
+					<form class="form-row" name="contactform" onsubmit="if(confirm('Do you want to send this message?')){if(myValidation()==false){return false;}}else{event.preventDefault(); return false;}">
+					<!--======Form part-1======-->
+						<div class="col-sm-6">
+							<div class="form-group">
+								<input type="text" name="name" class="form-control bg-transparent" value="" placeholder="Enter your name" onfocus="myFocus(this)">
+								<span id="name-error"></span>
+							</div>
+							<div class="form-group">
+								<input type="email" name="email" class="form-control bg-transparent" value="" placeholder="Enter your email" onfocus="myFocus(this)">
+								<span id="email-error"></span>
+							</div>
+							<div class="form-group">
+								<input type="text" name="phone"
+								class="form-control bg-transparent" value="" placeholder="Enter your phone" onfocus="myFocus(this)">
+								<span id="phone-error"></span>
+							</div>
+						</div>
+					<!--======Form part-2======-->
+						<div class="col-sm-6">
+							<div class="form-group">
+								<textarea style="height:145px;" name="message" class="form-control bg-transparent" placeholder="Enter your message" onfocus="myFocus(this)"></textarea>
+								<span id="message-error"></span>
+							</div>
+						</div>
+						<div class="my-3 text-center w-100">
+							<button class="btn btn-lg btn-primary" type="submit">submit</button>
+						</div>
+						
+					</form>
+					<!--======Address part======-->
+					<div class="row mt-5 text-white" id="address">
+						<div class="col-sm-4 text-center">
+								<h1 class="text-warning mb-3"><i class="far fa-map"></i></h1>
+								<p>Address <br>Tangail,Dhaka</p>
+						</div>
+						<div class="col-sm-4 col-6 text-center">
+								<h1 class="text-warning mb-3"><i class="far fa-envelope"></i></h1>
+								<p>E-mail <br>sanowar95eee@gmail.com</p>
+						</div>
+						<div class="col-sm-4 col-6 text-center">
+								<h1 class="text-warning mb-3"><i class="fas fa-mobile-alt"></i></h1>
+								<p>Phone<br>+8801723737688</p>
+						</div>
+					</div>
+				</div>	
+			</section>
+		</main>
+		<footer class="py-md-3 py-5">
+			<div class="container">
+				<div class="row">
+					
+					<!--==========social media part=========-->
+					<nav class="col-md-4 align-self-center order-md-12" id="social-link">
+						<ul class="nav justify-content-md-end justify-content-center">
+							<li><a class="btn btn-light btn-outline-primary rounded-circle" href="https://web.facebook.com/sanowar95/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+							<li><a class="btn btn-light btn-outline-primary rounded-circle" href="https://twitter.com/sanowar95" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+							<li><a class="btn btn-light btn-outline-primary rounded-circle" href="https://myaccount.google.com/profile" target="_blank"><i class="fab fa-google-plus-square"></i></a></li>
+							<li><a class="btn btn-light btn-outline-primary rounded-circle" href="https://www.linkedin.com/in/sanowar-sami-74679a168" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+						</ul>
+					</nav>
+					<!--==========copyright part=========-->
+					<div class="col-md-8 align-self-center text-md-left text-center py-3">
+						&copy;2018 all right reserved by <strong class="font-italic text-secondary">Md. Sanowar Hosen</strong>
+					</div>
+				</div>
+			</div>
+			<div class="btn btn-danger fixed-bottom left-auto m-4 smooth-scroll" id="upper">
+				<i class="fas fa-chevron-up"></i>
+			</div>
+		</footer>
+		 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+		<script src="js/jquery-3.5.1.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/custom.js"></script>
+
+	</body>
+</html>
